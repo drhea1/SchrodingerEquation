@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A630140E25F2D04500185968 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630140D25F2D04500185968 /* Tests_iOS.swift */; };
+		A630141925F2D04500185968 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630141825F2D04500185968 /* Tests_macOS.swift */; };
+		A630141B25F2D04500185968 /* Schrodinger_EquationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63013F225F2D04400185968 /* Schrodinger_EquationApp.swift */; };
+		A630141C25F2D04500185968 /* Schrodinger_EquationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63013F225F2D04400185968 /* Schrodinger_EquationApp.swift */; };
+		A630141D25F2D04500185968 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63013F325F2D04400185968 /* ContentView.swift */; };
+		A630141E25F2D04500185968 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63013F325F2D04400185968 /* ContentView.swift */; };
+		A630141F25F2D04500185968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63013F425F2D04500185968 /* Assets.xcassets */; };
+		A630142025F2D04500185968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63013F425F2D04500185968 /* Assets.xcassets */; };
+		A630143425F2D88100185968 /* WaveFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630143325F2D88100185968 /* WaveFunction.swift */; };
+		A630143525F2D88100185968 /* WaveFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630143325F2D88100185968 /* WaveFunction.swift */; };
+		A630143625F2D88100185968 /* WaveFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630143325F2D88100185968 /* WaveFunction.swift */; };
+		A630143725F2D88100185968 /* WaveFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630143325F2D88100185968 /* WaveFunction.swift */; };
+		A630143D25F2F18F00185968 /* InfiniteSquarePotentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630143C25F2F18F00185968 /* InfiniteSquarePotentials.swift */; };
+		A630143E25F2F18F00185968 /* InfiniteSquarePotentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630143C25F2F18F00185968 /* InfiniteSquarePotentials.swift */; };
+		A630143F25F2F18F00185968 /* InfiniteSquarePotentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630143C25F2F18F00185968 /* InfiniteSquarePotentials.swift */; };
+		A630144025F2F18F00185968 /* InfiniteSquarePotentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630143C25F2F18F00185968 /* InfiniteSquarePotentials.swift */; };
+		A6DEECB9260548B900A4D035 /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = A6DEECB8260548B900A4D035 /* Shared */; };
+		A6DEECBA260548B900A4D035 /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = A6DEECB8260548B900A4D035 /* Shared */; };
+		A6DEECBB260548B900A4D035 /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = A6DEECB8260548B900A4D035 /* Shared */; };
+		A6DEECBC260548B900A4D035 /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = A6DEECB8260548B900A4D035 /* Shared */; };
+		A6DEECCB260548CD00A4D035 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC5260548CD00A4D035 /* CalculatePlotData.swift */; };
+		A6DEECCC260548CD00A4D035 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC5260548CD00A4D035 /* CalculatePlotData.swift */; };
+		A6DEECCD260548CD00A4D035 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC5260548CD00A4D035 /* CalculatePlotData.swift */; };
+		A6DEECCE260548CD00A4D035 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC5260548CD00A4D035 /* CalculatePlotData.swift */; };
+		A6DEECCF260548CD00A4D035 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC6260548CD00A4D035 /* PlotDataClass.swift */; };
+		A6DEECD0260548CD00A4D035 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC6260548CD00A4D035 /* PlotDataClass.swift */; };
+		A6DEECD1260548CD00A4D035 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC6260548CD00A4D035 /* PlotDataClass.swift */; };
+		A6DEECD2260548CD00A4D035 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC6260548CD00A4D035 /* PlotDataClass.swift */; };
+		A6DEECD3260548CD00A4D035 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC7260548CD00A4D035 /* TextView.swift */; };
+		A6DEECD4260548CD00A4D035 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC7260548CD00A4D035 /* TextView.swift */; };
+		A6DEECD5260548CD00A4D035 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC7260548CD00A4D035 /* TextView.swift */; };
+		A6DEECD6260548CD00A4D035 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC7260548CD00A4D035 /* TextView.swift */; };
+		A6DEECD7260548CD00A4D035 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC8260548CD00A4D035 /* CorePlot.swift */; };
+		A6DEECD8260548CD00A4D035 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC8260548CD00A4D035 /* CorePlot.swift */; };
+		A6DEECD9260548CD00A4D035 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC8260548CD00A4D035 /* CorePlot.swift */; };
+		A6DEECDA260548CD00A4D035 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC8260548CD00A4D035 /* CorePlot.swift */; };
+		A6DEECDB260548CD00A4D035 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC9260548CD00A4D035 /* operators.swift */; };
+		A6DEECDC260548CD00A4D035 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC9260548CD00A4D035 /* operators.swift */; };
+		A6DEECDD260548CD00A4D035 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC9260548CD00A4D035 /* operators.swift */; };
+		A6DEECDE260548CD00A4D035 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECC9260548CD00A4D035 /* operators.swift */; };
+		A6DEECDF260548CD00A4D035 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECCA260548CD00A4D035 /* ChangingPlotParameters.swift */; };
+		A6DEECE0260548CD00A4D035 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECCA260548CD00A4D035 /* ChangingPlotParameters.swift */; };
+		A6DEECE1260548CD00A4D035 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECCA260548CD00A4D035 /* ChangingPlotParameters.swift */; };
+		A6DEECE2260548CD00A4D035 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECCA260548CD00A4D035 /* ChangingPlotParameters.swift */; };
+		A6DEECF126054E7D00A4D035 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = A6DEECF026054E7D00A4D035 /* CorePlot */; };
+		A6DEECF72605559800A4D035 /* TextExportDocument copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECF62605559800A4D035 /* TextExportDocument copy.swift */; };
+		A6DEECF82605559800A4D035 /* TextExportDocument copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECF62605559800A4D035 /* TextExportDocument copy.swift */; };
+		A6DEECF92605559800A4D035 /* TextExportDocument copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECF62605559800A4D035 /* TextExportDocument copy.swift */; };
+		A6DEECFA2605559800A4D035 /* TextExportDocument copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEECF62605559800A4D035 /* TextExportDocument copy.swift */; };
+		A6DEED04260566B000A4D035 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEED03260566B000A4D035 /* Functional.swift */; };
+		A6DEED05260566B000A4D035 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEED03260566B000A4D035 /* Functional.swift */; };
+		A6DEED06260566B000A4D035 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEED03260566B000A4D035 /* Functional.swift */; };
+		A6DEED07260566B000A4D035 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEED03260566B000A4D035 /* Functional.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A630140A25F2D04500185968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A63013ED25F2D04400185968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A63013F825F2D04500185968;
+			remoteInfo = "Schrodinger Equation (iOS)";
+		};
+		A630141525F2D04500185968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A63013ED25F2D04400185968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A630140025F2D04500185968;
+			remoteInfo = "Schrodinger Equation (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A63013F225F2D04400185968 /* Schrodinger_EquationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schrodinger_EquationApp.swift; sourceTree = "<group>"; };
+		A63013F325F2D04400185968 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A63013F425F2D04500185968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A63013F925F2D04500185968 /* Schrodinger Equation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Schrodinger Equation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63013FC25F2D04500185968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A630140125F2D04500185968 /* Schrodinger Equation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Schrodinger Equation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A630140325F2D04500185968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A630140425F2D04500185968 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A630140925F2D04500185968 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A630140D25F2D04500185968 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		A630140F25F2D04500185968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A630141425F2D04500185968 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A630141825F2D04500185968 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		A630141A25F2D04500185968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A630143325F2D88100185968 /* WaveFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveFunction.swift; sourceTree = "<group>"; };
+		A630143C25F2F18F00185968 /* InfiniteSquarePotentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteSquarePotentials.swift; sourceTree = "<group>"; };
+		A6DEECB8260548B900A4D035 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shared; sourceTree = "<group>"; };
+		A6DEECC5260548CD00A4D035 /* CalculatePlotData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatePlotData.swift; sourceTree = "<group>"; };
+		A6DEECC6260548CD00A4D035 /* PlotDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		A6DEECC7260548CD00A4D035 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		A6DEECC8260548CD00A4D035 /* CorePlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorePlot.swift; sourceTree = "<group>"; };
+		A6DEECC9260548CD00A4D035 /* operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = operators.swift; sourceTree = "<group>"; };
+		A6DEECCA260548CD00A4D035 /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
+		A6DEECF62605559800A4D035 /* TextExportDocument copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextExportDocument copy.swift"; sourceTree = "<group>"; };
+		A6DEED03260566B000A4D035 /* Functional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A63013F625F2D04500185968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63013FE25F2D04500185968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DEECF126054E7D00A4D035 /* CorePlot in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A630140625F2D04500185968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A630141125F2D04500185968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A63013EC25F2D04400185968 = {
+			isa = PBXGroup;
+			children = (
+				A63013F125F2D04400185968 /* Shared */,
+				A6DEECB8260548B900A4D035 /* Shared */,
+				A63013FB25F2D04500185968 /* iOS */,
+				A630140225F2D04500185968 /* macOS */,
+				A630140C25F2D04500185968 /* Tests iOS */,
+				A630141725F2D04500185968 /* Tests macOS */,
+				A63013FA25F2D04500185968 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A63013F125F2D04400185968 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A6DEED03260566B000A4D035 /* Functional.swift */,
+				A6DEECF62605559800A4D035 /* TextExportDocument copy.swift */,
+				A63013F325F2D04400185968 /* ContentView.swift */,
+				A6DEECC7260548CD00A4D035 /* TextView.swift */,
+				A6DEECC6260548CD00A4D035 /* PlotDataClass.swift */,
+				A6DEECC9260548CD00A4D035 /* operators.swift */,
+				A6DEECC8260548CD00A4D035 /* CorePlot.swift */,
+				A6DEECCA260548CD00A4D035 /* ChangingPlotParameters.swift */,
+				A6DEECC5260548CD00A4D035 /* CalculatePlotData.swift */,
+				A630143325F2D88100185968 /* WaveFunction.swift */,
+				A630143C25F2F18F00185968 /* InfiniteSquarePotentials.swift */,
+				A63013F225F2D04400185968 /* Schrodinger_EquationApp.swift */,
+				A63013F425F2D04500185968 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A63013FA25F2D04500185968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A63013F925F2D04500185968 /* Schrodinger Equation.app */,
+				A630140125F2D04500185968 /* Schrodinger Equation.app */,
+				A630140925F2D04500185968 /* Tests iOS.xctest */,
+				A630141425F2D04500185968 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A63013FB25F2D04500185968 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A63013FC25F2D04500185968 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		A630140225F2D04500185968 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A630140325F2D04500185968 /* Info.plist */,
+				A630140425F2D04500185968 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		A630140C25F2D04500185968 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A630140D25F2D04500185968 /* Tests_iOS.swift */,
+				A630140F25F2D04500185968 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		A630141725F2D04500185968 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A630141825F2D04500185968 /* Tests_macOS.swift */,
+				A630141A25F2D04500185968 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A63013F825F2D04500185968 /* Schrodinger Equation (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A630142325F2D04500185968 /* Build configuration list for PBXNativeTarget "Schrodinger Equation (iOS)" */;
+			buildPhases = (
+				A63013F525F2D04500185968 /* Sources */,
+				A63013F625F2D04500185968 /* Frameworks */,
+				A63013F725F2D04500185968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Schrodinger Equation (iOS)";
+			productName = "Schrodinger Equation (iOS)";
+			productReference = A63013F925F2D04500185968 /* Schrodinger Equation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A630140025F2D04500185968 /* Schrodinger Equation (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A630142625F2D04500185968 /* Build configuration list for PBXNativeTarget "Schrodinger Equation (macOS)" */;
+			buildPhases = (
+				A63013FD25F2D04500185968 /* Sources */,
+				A63013FE25F2D04500185968 /* Frameworks */,
+				A63013FF25F2D04500185968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Schrodinger Equation (macOS)";
+			packageProductDependencies = (
+				A6DEECF026054E7D00A4D035 /* CorePlot */,
+			);
+			productName = "Schrodinger Equation (macOS)";
+			productReference = A630140125F2D04500185968 /* Schrodinger Equation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A630140825F2D04500185968 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A630142925F2D04500185968 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				A630140525F2D04500185968 /* Sources */,
+				A630140625F2D04500185968 /* Frameworks */,
+				A630140725F2D04500185968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A630140B25F2D04500185968 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = A630140925F2D04500185968 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A630141325F2D04500185968 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A630142C25F2D04500185968 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				A630141025F2D04500185968 /* Sources */,
+				A630141125F2D04500185968 /* Frameworks */,
+				A630141225F2D04500185968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A630141625F2D04500185968 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = A630141425F2D04500185968 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A63013ED25F2D04400185968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A63013F825F2D04500185968 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A630140025F2D04500185968 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A630140825F2D04500185968 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A63013F825F2D04500185968;
+					};
+					A630141325F2D04500185968 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A630140025F2D04500185968;
+					};
+				};
+			};
+			buildConfigurationList = A63013F025F2D04400185968 /* Build configuration list for PBXProject "Schrodinger Equation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A63013EC25F2D04400185968;
+			packageReferences = (
+				A6DEECEF26054E7D00A4D035 /* XCRemoteSwiftPackageReference "core-plot" */,
+			);
+			productRefGroup = A63013FA25F2D04500185968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A63013F825F2D04500185968 /* Schrodinger Equation (iOS) */,
+				A630140025F2D04500185968 /* Schrodinger Equation (macOS) */,
+				A630140825F2D04500185968 /* Tests iOS */,
+				A630141325F2D04500185968 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A63013F725F2D04500185968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A630141F25F2D04500185968 /* Assets.xcassets in Resources */,
+				A6DEECB9260548B900A4D035 /* Shared in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63013FF25F2D04500185968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A630142025F2D04500185968 /* Assets.xcassets in Resources */,
+				A6DEECBA260548B900A4D035 /* Shared in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A630140725F2D04500185968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DEECBB260548B900A4D035 /* Shared in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A630141225F2D04500185968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DEECBC260548B900A4D035 /* Shared in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A63013F525F2D04500185968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DEECF72605559800A4D035 /* TextExportDocument copy.swift in Sources */,
+				A630143425F2D88100185968 /* WaveFunction.swift in Sources */,
+				A6DEECD7260548CD00A4D035 /* CorePlot.swift in Sources */,
+				A6DEECDB260548CD00A4D035 /* operators.swift in Sources */,
+				A6DEECCF260548CD00A4D035 /* PlotDataClass.swift in Sources */,
+				A630141D25F2D04500185968 /* ContentView.swift in Sources */,
+				A6DEED04260566B000A4D035 /* Functional.swift in Sources */,
+				A6DEECD3260548CD00A4D035 /* TextView.swift in Sources */,
+				A630141B25F2D04500185968 /* Schrodinger_EquationApp.swift in Sources */,
+				A6DEECDF260548CD00A4D035 /* ChangingPlotParameters.swift in Sources */,
+				A6DEECCB260548CD00A4D035 /* CalculatePlotData.swift in Sources */,
+				A630143D25F2F18F00185968 /* InfiniteSquarePotentials.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63013FD25F2D04500185968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DEECF82605559800A4D035 /* TextExportDocument copy.swift in Sources */,
+				A630143525F2D88100185968 /* WaveFunction.swift in Sources */,
+				A6DEECD8260548CD00A4D035 /* CorePlot.swift in Sources */,
+				A6DEECDC260548CD00A4D035 /* operators.swift in Sources */,
+				A6DEECD0260548CD00A4D035 /* PlotDataClass.swift in Sources */,
+				A630141E25F2D04500185968 /* ContentView.swift in Sources */,
+				A6DEED05260566B000A4D035 /* Functional.swift in Sources */,
+				A6DEECD4260548CD00A4D035 /* TextView.swift in Sources */,
+				A630141C25F2D04500185968 /* Schrodinger_EquationApp.swift in Sources */,
+				A6DEECE0260548CD00A4D035 /* ChangingPlotParameters.swift in Sources */,
+				A6DEECCC260548CD00A4D035 /* CalculatePlotData.swift in Sources */,
+				A630143E25F2F18F00185968 /* InfiniteSquarePotentials.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A630140525F2D04500185968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A630143625F2D88100185968 /* WaveFunction.swift in Sources */,
+				A6DEECF92605559800A4D035 /* TextExportDocument copy.swift in Sources */,
+				A6DEECDD260548CD00A4D035 /* operators.swift in Sources */,
+				A6DEECCD260548CD00A4D035 /* CalculatePlotData.swift in Sources */,
+				A6DEECD1260548CD00A4D035 /* PlotDataClass.swift in Sources */,
+				A6DEECD9260548CD00A4D035 /* CorePlot.swift in Sources */,
+				A6DEECD5260548CD00A4D035 /* TextView.swift in Sources */,
+				A630143F25F2F18F00185968 /* InfiniteSquarePotentials.swift in Sources */,
+				A6DEED06260566B000A4D035 /* Functional.swift in Sources */,
+				A630140E25F2D04500185968 /* Tests_iOS.swift in Sources */,
+				A6DEECE1260548CD00A4D035 /* ChangingPlotParameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A630141025F2D04500185968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A630143725F2D88100185968 /* WaveFunction.swift in Sources */,
+				A6DEECFA2605559800A4D035 /* TextExportDocument copy.swift in Sources */,
+				A6DEECDE260548CD00A4D035 /* operators.swift in Sources */,
+				A6DEECCE260548CD00A4D035 /* CalculatePlotData.swift in Sources */,
+				A6DEECD2260548CD00A4D035 /* PlotDataClass.swift in Sources */,
+				A6DEECDA260548CD00A4D035 /* CorePlot.swift in Sources */,
+				A6DEECD6260548CD00A4D035 /* TextView.swift in Sources */,
+				A630144025F2F18F00185968 /* InfiniteSquarePotentials.swift in Sources */,
+				A6DEED07260566B000A4D035 /* Functional.swift in Sources */,
+				A630141925F2D04500185968 /* Tests_macOS.swift in Sources */,
+				A6DEECE2260548CD00A4D035 /* ChangingPlotParameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A630140B25F2D04500185968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A63013F825F2D04500185968 /* Schrodinger Equation (iOS) */;
+			targetProxy = A630140A25F2D04500185968 /* PBXContainerItemProxy */;
+		};
+		A630141625F2D04500185968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A630140025F2D04500185968 /* Schrodinger Equation (macOS) */;
+			targetProxy = A630141525F2D04500185968 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A630142125F2D04500185968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A630142225F2D04500185968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A630142425F2D04500185968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Schrodinger-Equation";
+				PRODUCT_NAME = "Schrodinger Equation";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A630142525F2D04500185968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Schrodinger-Equation";
+				PRODUCT_NAME = "Schrodinger Equation";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A630142725F2D04500185968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Schrodinger-Equation";
+				PRODUCT_NAME = "Schrodinger Equation";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A630142825F2D04500185968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Schrodinger-Equation";
+				PRODUCT_NAME = "Schrodinger Equation";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A630142A25F2D04500185968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Schrodinger Equation (iOS)";
+			};
+			name = Debug;
+		};
+		A630142B25F2D04500185968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Schrodinger Equation (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A630142D25F2D04500185968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Schrodinger Equation (macOS)";
+			};
+			name = Debug;
+		};
+		A630142E25F2D04500185968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Schrodinger Equation (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A63013F025F2D04400185968 /* Build configuration list for PBXProject "Schrodinger Equation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A630142125F2D04500185968 /* Debug */,
+				A630142225F2D04500185968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A630142325F2D04500185968 /* Build configuration list for PBXNativeTarget "Schrodinger Equation (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A630142425F2D04500185968 /* Debug */,
+				A630142525F2D04500185968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A630142625F2D04500185968 /* Build configuration list for PBXNativeTarget "Schrodinger Equation (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A630142725F2D04500185968 /* Debug */,
+				A630142825F2D04500185968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A630142925F2D04500185968 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A630142A25F2D04500185968 /* Debug */,
+				A630142B25F2D04500185968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A630142C25F2D04500185968 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A630142D25F2D04500185968 /* Debug */,
+				A630142E25F2D04500185968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A6DEECEF26054E7D00A4D035 /* XCRemoteSwiftPackageReference "core-plot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/core-plot/core-plot";
+			requirement = {
+				branch = "release-2.4";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6DEECF026054E7D00A4D035 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6DEECEF26054E7D00A4D035 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A63013ED25F2D04400185968 /* Project object */;
+}
